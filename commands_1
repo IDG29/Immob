@@ -1,0 +1,4 @@
+#!/bin/sh
+cd prepwizard/output_models/GPX_Gossypium-hirsutum
+"${SCHRODINGER}/utilities/prepwizard" ../../input_models/GPX_Gossypium-hirsutum.pdb GPX_Gossypium-hirsutum.pdb -fillsidechains -disulfides -propka_pH 7.0 -f 2005 -rmsd 0.3 -JOBNAME GPX_Gossypium-hirsutum -HOST localhost:1 -WAIT
+cd ../../..

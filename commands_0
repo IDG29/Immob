@@ -1,0 +1,4 @@
+#!/bin/sh
+cd prepwizard/output_models/GPX_Bacillus-subtilis
+"${SCHRODINGER}/utilities/prepwizard" ../../input_models/GPX_Bacillus-subtilis.pdb GPX_Bacillus-subtilis.pdb -fillsidechains -disulfides -propka_pH 7.0 -f 2005 -rmsd 0.3 -JOBNAME GPX_Bacillus-subtilis -HOST localhost:1 -WAIT
+cd ../../..

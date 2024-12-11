@@ -1,0 +1,4 @@
+#!/bin/sh
+cd prepwizard/output_models/GPX_Lactococcus-lactis
+"${SCHRODINGER}/utilities/prepwizard" ../../input_models/GPX_Lactococcus-lactis.pdb GPX_Lactococcus-lactis.pdb -fillsidechains -disulfides -propka_pH 7.0 -f 2005 -rmsd 0.3 -JOBNAME GPX_Lactococcus-lactis -HOST localhost:1 -WAIT
+cd ../../..
