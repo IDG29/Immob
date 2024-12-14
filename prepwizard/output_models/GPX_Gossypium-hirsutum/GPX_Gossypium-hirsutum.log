@@ -1,0 +1,32 @@
+Command: /home/cactus/Programs/schrodinger2023-1/mmshare-v6.1/bin/Linux-x86_64/../../python/scripts/prepwizard2_driver.py GPX_Gossypium-hirsutum.pdb GPX_Gossypium-hirsutum.pdb -fillsidechains -disulfides -propka_pH 7.0 -f 2005 -rmsd 0.3
+Number of input structures: 1
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  0
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  cactus-X11DAi-N-1-675d858f GPX_Gossypium-hirsutum-001 localhost [cactus-X11DAi-N]
+1 0 0 | finished  cactus-X11DAi-N-1-675d858f GPX_Gossypium-hirsutum-001 localhost [cactus-X11DAi-N]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+Subjob completed successfully: GPX_Gossypium-hirsutum-001
+WARNING mmpdb_write_ct: Atom 2515 of residue A:10 (SER ) has same name ( H  ) as a prior atom.
+Number of successful preparations: 1
+Number of output structures: 1
+DONE. Output file: GPX_Gossypium-hirsutum.pdb

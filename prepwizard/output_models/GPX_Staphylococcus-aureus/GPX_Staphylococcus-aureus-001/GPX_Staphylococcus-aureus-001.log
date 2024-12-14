@@ -1,0 +1,923 @@
+Preparing structure: 
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  No bond orders were changed
+Adding hydrogens...
+Treating metals...
+Creating di-sulfur bonds...
+Annotating antibody regions...
+WARNING: Sequence similarity score to best reference sequence below cutoff (325). Light: 283.0; Heavy: 284.0.
+Detecting missing residue atoms...
+  No missing side chains found
+Finding het groups (for Epik)...
+Epik was not run, as there are no preparable groups
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
+  Using PROPKA with pH: 7.0
+  RUNNING: /home/cactus/Programs/schrodinger2023-1/utilities/protassign /home/cactus/Programs/schrodinger2023-1/scratch/cactus/GPX_Staphylococcus-aureus-001/Optimize_H-bond_Assignments.maegz Optimize_H-bond_Assignments-out.maegz -NOJOBID -nowater -propka_pH 7.0
+Running PROPKA to get pKas
+
+Clustering hydrogen bond network ...
+Found 50 clusters
+
+Cluster 1 (1):
+    A:ASN 12
+Cluster 2 (5):
+    A:ASN 31
+    A:GLN 70
+    A:ASN 125
+    A:CYS 36: HG 
+    A:THR 127: HG1
+Cluster 3 (2):
+    A:GLN 41
+    A:LYS 128
+Cluster 4 (4):
+    A:GLN 46
+    A:LYS 53
+    A:THR 89: HG1
+    A:GLU 50
+Cluster 5 (1):
+    A:GLN 55
+Cluster 6 (1):
+    A:ASN 65
+Cluster 7 (3):
+    A:GLN 66
+    A:CYS 64: HG 
+    A:ASP 97
+Cluster 8 (1):
+    A:GLN 80
+Cluster 9 (4):
+    A:ASN 81
+    A:ASN 85
+    A:SER 34: HG 
+    A:GLU 71
+Cluster 10 (2):
+    A:GLN 94
+    A:GLU 10
+Cluster 11 (2):
+    A:GLN 103
+    A:THR 111: HG1
+Cluster 12 (1):
+    A:GLN 114
+Cluster 13 (2):
+    A:ASN 119
+    A:LYS 123
+Cluster 14 (3):
+    A:ASN 136
+    A:ASP 132
+    A:GLU 134
+Cluster 15 (1):
+    A:GLN 144
+Cluster 16 (1):
+    A:GLN 149
+Cluster 17 (2):
+    A:LYS 13
+    A:GLU 76
+Cluster 18 (1):
+    A:LYS 18
+Cluster 19 (1):
+    A:LYS 23
+Cluster 20 (4):
+    A:LYS 51
+    A:TYR 52: HH 
+    A:GLU 151
+    A:GLU 155
+Cluster 21 (1):
+    A:LYS 83
+Cluster 22 (1):
+    A:LYS 95
+Cluster 23 (1):
+    A:LYS 99
+Cluster 24 (1):
+    A:LYS 121
+Cluster 25 (3):
+    A:LYS 139
+    A:LYS 156
+    A:GLU 153
+Cluster 26 (1):
+    A:LYS 145
+Cluster 27 (1):
+    A:LYS 146
+Cluster 28 (3):
+    A:HIS 93
+    A:TYR 17: HH 
+    A:TYR 22: HH 
+Cluster 29 (1):
+    A:HIS 102
+Cluster 30 (1):
+    A:HIS 115
+Cluster 31 (2):
+    A:THR 3: HG1
+    A:ASP 6
+Cluster 32 (1):
+    A:TYR 5: HH 
+Cluster 33 (1):
+    A:THR 11: HG1
+Cluster 34 (1):
+    A:THR 16: HG1
+Cluster 35 (1):
+    A:THR 32: HG1
+Cluster 36 (2):
+    A:THR 39: HG1
+    A:TYR 86: HH 
+Cluster 37 (1):
+    A:SER 40: HG 
+Cluster 38 (1):
+    A:SER 47: HG 
+Cluster 39 (1):
+    A:TYR 49: HH 
+Cluster 40 (2):
+    A:SER 74: HG 
+    A:GLU 77
+Cluster 41 (1):
+    A:CYS 82: HG 
+Cluster 42 (1):
+    A:TYR 109: HH 
+Cluster 43 (1):
+    A:GLU 2
+Cluster 44 (1):
+    A:ASP 20
+Cluster 45 (1):
+    A:ASP 25
+Cluster 46 (1):
+    A:GLU 35
+Cluster 47 (1):
+    A:GLU 43
+Cluster 48 (1):
+    A:ASP 54
+Cluster 49 (1):
+    A:GLU 101
+Cluster 50 (1):
+    A:GLU 120
+
+Optimizing cluster #1 ...
+Lowest energy: -0.4943
+Assignments:
+  A:ASN 12        -> No Flip
+
+Optimizing cluster #2 ...
+Lowest energy: -7.1832
+Assignments:
+  A:ASN 31        -> No Flip
+  A:GLN 70        -> No Flip
+  A:ASN 125       -> No Flip
+  A:CYS 36: HG    -> Orientation 1/5 (pKa = 9.59)
+  A:THR 127: HG1  -> Orientation 1/6
+
+Optimizing cluster #3 ...
+Lowest energy: -4.8217
+Assignments:
+  A:GLN 41        -> No Flip
+  A:LYS 128       -> Orientation 1/3 (pKa = 7.34)
+
+Optimizing cluster #4 ...
+Lowest energy: -5.4807
+Assignments:
+  A:GLN 46        -> No Flip
+  A:LYS 53        -> Orientation 1/1 (pKa = 11.69)
+  A:THR 89: HG1   -> Orientation 2/8
+  A:GLU 50        -> Charged (pKa = 3.65)
+
+Optimizing cluster #5 ...
+Lowest energy: -0.5402
+Assignments:
+  A:GLN 55        -> No Flip
+
+Optimizing cluster #6 ...
+Lowest energy: -1.0972
+Assignments:
+  A:ASN 65        -> No Flip
+
+Optimizing cluster #7 ...
+Lowest energy: -5.2527
+Assignments:
+  A:GLN 66        -> No Flip
+  A:CYS 64: HG    -> Orientation 1/5 (pKa = 10.95)
+  A:ASP 97        -> Charged (pKa = 4.36)
+
+Optimizing cluster #8 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLN 80        -> No Flip
+
+Optimizing cluster #9 ...
+Lowest energy: -5.2327
+Assignments:
+  A:ASN 81        -> No Flip
+  A:ASN 85        -> No Flip
+  A:SER 34: HG    -> Orientation 1/10
+  A:GLU 71        -> Charged (pKa = 5.86)
+
+Optimizing cluster #10 ...
+Lowest energy: -1.5043
+Assignments:
+  A:GLN 94        -> No Flip
+  A:GLU 10        -> Charged (pKa = 4.84)
+
+Optimizing cluster #11 ...
+Lowest energy: -3.0094
+Assignments:
+  A:GLN 103       -> No Flip
+  A:THR 111: HG1  -> Stagger 3 8/8
+
+Optimizing cluster #12 ...
+Lowest energy: -1.6513
+Assignments:
+  A:GLN 114       -> No Flip
+
+Optimizing cluster #13 ...
+Lowest energy: -1.2504
+Assignments:
+  A:ASN 119       -> No Flip
+  A:LYS 123       -> Orientation 1/1 (pKa = 10.16)
+
+Optimizing cluster #14 ...
+Lowest energy: -4.9675
+Assignments:
+  A:ASN 136       -> No Flip
+  A:ASP 132       -> Charged (pKa = 2.79)
+  A:GLU 134       -> Charged (pKa = 4.51)
+
+Optimizing cluster #15 ...
+Lowest energy: -1.3463
+Assignments:
+  A:GLN 144       -> No Flip
+
+Optimizing cluster #16 ...
+Lowest energy: -0.8888
+Assignments:
+  A:GLN 149       -> No Flip
+
+Optimizing cluster #17 ...
+Lowest energy: -1.3044
+Assignments:
+  A:LYS 13        -> Orientation 1/1 (pKa = 11.46)
+  A:GLU 76        -> Charged (pKa = 3.48)
+
+Optimizing cluster #18 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 18        -> Orientation 1/1 (pKa = 10.69)
+
+Optimizing cluster #19 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 23        -> Stagger (pKa = 10.44)
+
+Optimizing cluster #20 ...
+Lowest energy: -3.1346
+Assignments:
+  A:LYS 51        -> Orientation 1/1 (pKa = 12.78)
+  A:TYR 52: HH    -> Orientation 5/6 (pKa = 11.80)
+  A:GLU 151       -> Charged (pKa = 3.11)
+  A:GLU 155       -> Charged (pKa = 4.13)
+
+Optimizing cluster #21 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 83        -> Stagger (pKa = 10.35)
+
+Optimizing cluster #22 ...
+Lowest energy: -2.2448
+Assignments:
+  A:LYS 95        -> Stagger (pKa = 10.08)
+
+Optimizing cluster #23 ...
+Lowest energy: -0.9567
+Assignments:
+  A:LYS 99        -> Orientation 1/1 (pKa = 9.91)
+
+Optimizing cluster #24 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 121       -> Stagger (pKa = 10.47)
+
+Optimizing cluster #25 ...
+Lowest energy: -3.1817
+Assignments:
+  A:LYS 139       -> Orientation 1/1 (pKa = 11.35)
+  A:LYS 156       -> Orientation 1/1 (pKa = 11.01)
+  A:GLU 153       -> Charged (pKa = 2.27)
+
+Optimizing cluster #26 ...
+Lowest energy: -0.2133
+Assignments:
+  A:LYS 145       -> Orientation 1/2 (pKa = 10.11)
+
+Optimizing cluster #27 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 146       -> Stagger (pKa = 10.39)
+
+Optimizing cluster #28 ...
+Lowest energy: -2.8032
+Assignments:
+  A:HIS 93        -> HID (pKa = 4.20)
+  A:TYR 17: HH    -> Default 1 3/4 (pKa = 13.74)
+  A:TYR 22: HH    -> Orientation 1/3 (pKa = 11.06)
+
+Optimizing cluster #29 ...
+Lowest energy: -0.1467
+Assignments:
+  A:HIS 102       -> Flip HIE (pKa = 6.49)
+
+Optimizing cluster #30 ...
+Lowest energy: -1.2985
+Assignments:
+  A:HIS 115       -> HID (pKa = 7.20)
+
+Optimizing cluster #31 ...
+Lowest energy: -3.5492
+Assignments:
+  A:THR 3: HG1    -> Orientation 2/6
+  A:ASP 6         -> Charged (pKa = 2.39)
+
+Optimizing cluster #32 ...
+Lowest energy: -1.1375
+Assignments:
+  A:TYR 5: HH     -> Default 2 2/2 (pKa = 11.25)
+
+Optimizing cluster #33 ...
+Lowest energy: -2.3431
+Assignments:
+  A:THR 11: HG1   -> Orientation 1/9
+
+Optimizing cluster #34 ...
+Lowest energy: -0.7249
+Assignments:
+  A:THR 16: HG1   -> Stagger 1 2/4
+
+Optimizing cluster #35 ...
+Lowest energy: -1.0422
+Assignments:
+  A:THR 32: HG1   -> Stagger 3 5/5
+
+Optimizing cluster #36 ...
+Lowest energy: -1.9949
+Assignments:
+  A:THR 39: HG1   -> Orientation 1/6
+  A:TYR 86: HH    -> Orientation 1/3 (pKa = 10.13)
+
+Optimizing cluster #37 ...
+Lowest energy: -0.6582
+Assignments:
+  A:SER 40: HG    -> Stagger 3 7/7
+
+Optimizing cluster #38 ...
+Lowest energy: -1.2651
+Assignments:
+  A:SER 47: HG    -> Orientation 1/6
+
+Optimizing cluster #39 ...
+Lowest energy: 0.0000
+Assignments:
+  A:TYR 49: HH    -> Orientation 1/3 (pKa = 10.80)
+
+Optimizing cluster #40 ...
+Lowest energy: -3.1645
+Assignments:
+  A:SER 74: HG    -> Orientation 5/10
+  A:GLU 77        -> Charged (pKa = 3.93)
+
+Optimizing cluster #41 ...
+Lowest energy: -0.9755
+Assignments:
+  A:CYS 82: HG    -> Orientation 1/6 (pKa = 12.25)
+
+Optimizing cluster #42 ...
+Lowest energy: -0.4654
+Assignments:
+  A:TYR 109: HH   -> Default 1 3/4 (pKa = 10.84)
+
+Optimizing cluster #43 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 2         -> Charged (pKa = 4.91)
+
+Optimizing cluster #44 ...
+Lowest energy: -0.9131
+Assignments:
+  A:ASP 20        -> Charged (pKa = 3.85)
+
+Optimizing cluster #45 ...
+Lowest energy: -0.0304
+Assignments:
+  A:ASP 25        -> Charged (pKa = 4.64)
+
+Optimizing cluster #46 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 35        -> Charged (pKa = 4.79)
+
+Optimizing cluster #47 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 43        -> Charged (pKa = 4.63)
+
+Optimizing cluster #48 ...
+Lowest energy: -0.1529
+Assignments:
+  A:ASP 54        -> Charged (pKa = 3.96)
+
+Optimizing cluster #49 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 101       -> Charged (pKa = 4.55)
+
+Optimizing cluster #50 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLU 120       -> Charged (pKa = 4.46)
+
+
+Recalculating pKas to identify changes in protonation penalties...
+Running PROPKA to get pKas
+No changes in protonation penalties found.
+
+Combined total energy: -78.4217
+Alternative States for A:GLN 70   Gap  0.33 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.33 kcals/mol
+Alternative States for A:ASN 125  Gap  0.33 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.33 kcals/mol
+Alternative States for A:GLN 55   Gap  0.54 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.54 kcals/mol
+Alternative States for A:ASN 81   Gap  0.19 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.19 kcals/mol
+Alternative States for A:ASN 85   Gap  0.19 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.19 kcals/mol
+Alternative States for A:GLN 94   Gap  1.33 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.33 kcals/mol
+Alternative States for A:GLN 103  Gap  0.76 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.76 kcals/mol
+Alternative States for A:GLN 114  Gap  1.53 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.53 kcals/mol
+Alternative States for A:ASN 136  Gap  1.84 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.84 kcals/mol
+Alternative States for A:HIS 102  Gap  0.07 kcals/mol
+    Flip HIE  0.00 kcals/mol
+    HID       0.07 kcals/mol
+    Flip HID  0.14 kcals/mol
+    HIE       0.15 kcals/mol
+
+Final pKas:
+  A:LYS 13 : 11.46
+  A:LYS 18 : 10.69
+  A:LYS 23 : 10.44
+  A:LYS 51 : 12.78
+  A:LYS 53 : 11.69
+  A:LYS 83 : 10.35
+  A:LYS 95 : 10.08
+  A:LYS 99 : 9.91
+  A:LYS 121 : 10.47
+  A:LYS 123 : 10.16
+  A:LYS 128 : 7.34
+  A:LYS 139 : 11.35
+  A:LYS 145 : 10.11
+  A:LYS 146 : 10.39
+  A:LYS 156 : 11.01
+  A:HIS 93 : 4.20
+  A:HIS 102 : 6.49
+  A:HIS 115 : 7.20
+  A:TYR 5: HH  : 11.25
+  A:TYR 17: HH  : 13.74
+  A:TYR 22: HH  : 11.06
+  A:CYS 36: HG  : 9.59
+  A:TYR 49: HH  : 10.80
+  A:TYR 52: HH  : 11.80
+  A:CYS 64: HG  : 10.95
+  A:CYS 82: HG  : 12.25
+  A:TYR 86: HH  : 10.13
+  A:TYR 109: HH  : 10.84
+  A:GLU 2 : 4.91
+  A:ASP 6 : 2.39
+  A:GLU 10 : 4.84
+  A:ASP 20 : 3.85
+  A:ASP 25 : 4.64
+  A:GLU 35 : 4.79
+  A:GLU 43 : 4.63
+  A:GLU 50 : 3.65
+  A:ASP 54 : 3.96
+  A:GLU 71 : 5.86
+  A:GLU 76 : 3.48
+  A:GLU 77 : 3.93
+  A:ASP 97 : 4.36
+  A:GLU 101 : 4.55
+  A:GLU 120 : 4.46
+  A:ASP 132 : 2.79
+  A:GLU 134 : 4.51
+  A:GLU 151 : 3.11
+  A:GLU 153 : 2.27
+  A:GLU 155 : 4.13
+Structure extracted from file: /home/cactus/Programs/schrodinger2023-1/scratch/cactus/GPX_Staphylococcus-aureus-001/Optimize_H-bond_Assignments.maegz
+Output structure will be written to: Optimize_H-bond_Assignments-out.maegz
+
+Complete. Output file: Optimize_H-bond_Assignments-out.maegz
+Idealizing hydrogen temperature factors...
+Optimize H-bond job completed
+Running restrained minimization...
+  RMSD: 0.3
+  Force field: 2005
+  all atoms
+%IMPACT-I (openwt): Request to open FORMATTED file GPX_Staphylococcus-aureus-001_ref0.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:18:38 CET
+ Impact version 98128
+ mmshare version        61128
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux cactus-X11DAi-N 5.15.0-125-generic #135~20.04.1-Ubuntu SMP Mon Oct 7 13:56:22 UTC 2024 x86_64
+ Job Name: GPX_Staphylococcus-aureus-001
+ JobId:    cactus-X11DAi-N-1-675d858e
+ SCHRODINGER  directory: /home/cactus/Programs/schrodinger2023-1
+ IMPACT_EXEC  directory: /home/cactus/Programs/schrodinger2023-1/impact-v9.8/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /home/cactus/Programs/schrodinger2023-1/mmshare-v6.1/bin/Linux-x86_64
+
+ Clock-based global random seed:     1734182318
+%IMPACT-I(foldmain): calling OPLS_2005 atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coord. are written to file: "GPX_Staphylococcus-aureus-001.init_coord.rst"
+      Box dimensions not written
+
+
+ Total number of atoms  =  2537
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:   752783
+ E-pot        RMS grad     Max grad    
+ -7.63113E+02  5.03206E+00  1.40811E+02
+ Step number:         10         Non-bonded count:   752783
+ -9.98710E+02  1.19321E+00  2.24747E+01
+ Step number:         20         Non-bonded count:   752612
+ -1.03237E+03  7.45751E-01  1.04397E+01
+ Step number:         30         Non-bonded count:   752011
+ -1.04750E+03  4.77174E-01  6.14614E+00
+ Step number:         40         Non-bonded count:   752113
+ -1.05447E+03  3.50531E-01  3.98692E+00
+ Step number:         50         Non-bonded count:   753088
+ -1.05860E+03  2.71209E-01  2.61200E+00
+ Step number:         60         Non-bonded count:   752534
+ -1.06153E+03  2.35270E-01  3.12746E+00
+ Step number:         70         Non-bonded count:   751549
+ -1.06357E+03  1.98500E-01  2.11671E+00
+ Step number:         80         Non-bonded count:   751564
+ -1.06500E+03  1.63652E-01  2.63134E+00
+ Step number:         90         Non-bonded count:   751884
+ -1.06598E+03  1.44581E-01  2.49390E+00
+ Step number:        100         Non-bonded count:   751552
+ -1.06672E+03  1.22980E-01  1.17513E+00
+ Step number:        100         Non-bonded count:   751932
+ -1.06663E+03  1.23027E-01  1.17513E+00
+      Current coord. are written to file: "GPX_Staphylococcus-aureus-001.min0_coord.rst"
+      Box dimensions not written
+      Current coordinates are read from file: "GPX_Staphylococcus-aureus-001.init_coord.rst"
+      Box dimensions not read
+          read from "GPX_Staphylococcus-aureus-001.init_coord.rst"
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     255
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coordinates are read from file: "GPX_Staphylococcus-aureus-001.min0_coord.rst"
+      Box dimensions not read
+          read from "GPX_Staphylococcus-aureus-001.min0_coord.rst"
+
+
+ Total number of atoms  =  2537
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:   751932
+ E-pot        RMS grad     Max grad    
+  5.01395E+00  5.38463E+00  4.75017E+01
+ Step number:         10         Non-bonded count:   751932
+ -5.11374E+02  1.65583E+00  1.38979E+01
+ Step number:         20         Non-bonded count:   750066
+ -5.83771E+02  8.70837E-01  1.42197E+01
+ Step number:         30         Non-bonded count:   751518
+ -6.03597E+02  5.28323E-01  1.51224E+01
+ Step number:         40         Non-bonded count:   750930
+ -6.11708E+02  3.21206E-01  4.66264E+00
+ Step number:         50         Non-bonded count:   751000
+ -6.14513E+02  2.12067E-01  3.21887E+00
+ Step number:         60         Non-bonded count:   751240
+ -6.15599E+02  1.20034E-01  2.35323E+00
+ Step number:         70         Non-bonded count:   751240
+ -6.15975E+02  6.96199E-02  9.05145E-01
+ Step number:         80         Non-bonded count:   751080
+ -6.16125E+02  5.06275E-02  8.06828E-01
+ Step number:         81         Non-bonded count:   751080
+ -6.16135E+02  4.82630E-02  8.69008E-01
+ Step number:         81         Non-bonded count:   751080
+ -6.16135E+02  4.82630E-02  8.69008E-01
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     453
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -6.16135E+02 kcal/mol
+ Total Potential Energy.......... -6.16135E+02 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  5.17432E+01 kcal/mol
+ Angle Bending Energy............  2.21251E+02 kcal/mol
+ Torsion Angle Energy............  3.48249E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  7.60092E+02 kcal/mol
+ 1,4 Electrostatic Energy........  3.35838E+02 kcal/mol
+ Lennard Jones Energy............ -1.43232E+03 kcal/mol
+ Electrostatic Energy............ -9.49713E+02 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:18:47 CET
+%IMPACT-I (timit): Total CPU time =       9.29 seconds (   0.2 minutes)
+Total elapsed time = 9 seconds
+Beginning refinement level 0
+ ** Completed refinement level 0 and rmsd = 0.061719549381556486
+%IMPACT-I (openwt): Request to open FORMATTED file GPX_Staphylococcus-aureus-001_ref1.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:18:49 CET
+ Impact version 98128
+ mmshare version        61128
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux cactus-X11DAi-N 5.15.0-125-generic #135~20.04.1-Ubuntu SMP Mon Oct 7 13:56:22 UTC 2024 x86_64
+ Job Name: GPX_Staphylococcus-aureus-001
+ JobId:    cactus-X11DAi-N-1-675d858e
+ SCHRODINGER  directory: /home/cactus/Programs/schrodinger2023-1
+ IMPACT_EXEC  directory: /home/cactus/Programs/schrodinger2023-1/impact-v9.8/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /home/cactus/Programs/schrodinger2023-1/mmshare-v6.1/bin/Linux-x86_64
+
+ Clock-based global random seed:     1734182329
+%IMPACT-I(foldmain): calling OPLS_2005 atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  2537
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:   751080
+ E-pot        RMS grad     Max grad    
+ -6.64852E+02  5.07830E-01  4.53285E+00
+ Step number:         10         Non-bonded count:   751080
+ -6.92079E+02  6.40337E-01  9.09278E+00
+ Step number:         20         Non-bonded count:   749865
+ -7.04390E+02  3.77304E-01  4.37870E+00
+ Step number:         30         Non-bonded count:   749050
+ -7.08877E+02  2.65986E-01  2.72494E+00
+ Step number:         40         Non-bonded count:   749031
+ -7.10946E+02  1.71288E-01  1.75812E+00
+ Step number:         50         Non-bonded count:   749493
+ -7.11888E+02  1.20803E-01  1.44918E+00
+ Step number:         60         Non-bonded count:   749911
+ -7.12361E+02  8.89793E-02  1.30601E+00
+ Step number:         70         Non-bonded count:   750263
+ -7.12624E+02  6.40587E-02  7.10284E-01
+ Step number:         77         Non-bonded count:   750081
+ E-pot        RMS grad     Max grad    
+ -7.12720E+02  4.88517E-02  4.23976E-01
+ Step number:         77         Non-bonded count:   750004
+ -7.12714E+02  4.88496E-02  4.23976E-01
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     197
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -7.12714E+02 kcal/mol
+ Total Potential Energy.......... -7.12714E+02 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  6.09776E+01 kcal/mol
+ Angle Bending Energy............  2.30378E+02 kcal/mol
+ Torsion Angle Energy............  3.31044E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  7.29253E+02 kcal/mol
+ 1,4 Electrostatic Energy........  3.35372E+02 kcal/mol
+ Lennard Jones Energy............ -1.49313E+03 kcal/mol
+ Electrostatic Energy............ -9.29804E+02 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:18:55 CET
+%IMPACT-I (timit): Total CPU time =       5.57 seconds (   0.1 minutes)
+Total elapsed time = 6 seconds
+Beginning refinement level 1
+ ** Completed refinement level 1 and rmsd = 0.1317756612178363
+%IMPACT-I (openwt): Request to open FORMATTED file GPX_Staphylococcus-aureus-001_ref2.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:18:57 CET
+ Impact version 98128
+ mmshare version        61128
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux cactus-X11DAi-N 5.15.0-125-generic #135~20.04.1-Ubuntu SMP Mon Oct 7 13:56:22 UTC 2024 x86_64
+ Job Name: GPX_Staphylococcus-aureus-001
+ JobId:    cactus-X11DAi-N-1-675d858e
+ SCHRODINGER  directory: /home/cactus/Programs/schrodinger2023-1
+ IMPACT_EXEC  directory: /home/cactus/Programs/schrodinger2023-1/impact-v9.8/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /home/cactus/Programs/schrodinger2023-1/mmshare-v6.1/bin/Linux-x86_64
+
+ Clock-based global random seed:     1734182337
+%IMPACT-I(foldmain): calling OPLS_2005 atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  2537
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:   750004
+ E-pot        RMS grad     Max grad    
+ -7.35906E+02  1.97315E-01  1.69193E+00
+ Step number:         10         Non-bonded count:   750004
+ -7.44194E+02  6.07917E-01  5.99413E+00
+ Step number:         20         Non-bonded count:   749353
+ -7.53052E+02  4.01505E-01  3.72620E+00
+ Step number:         30         Non-bonded count:   748789
+ -7.56962E+02  3.03141E-01  3.64303E+00
+ Step number:         40         Non-bonded count:   748674
+ -7.58919E+02  2.62528E-01  2.61140E+00
+ Step number:         50         Non-bonded count:   748244
+ -7.60644E+02  1.70304E-01  1.58332E+00
+ Step number:         60         Non-bonded count:   748532
+ -7.61940E+02  1.37548E-01  1.13333E+00
+ Step number:         70         Non-bonded count:   748736
+ -7.62590E+02  1.11775E-01  1.32801E+00
+ Step number:         80         Non-bonded count:   748624
+ -7.63031E+02  9.13530E-02  8.95405E-01
+ Step number:         90         Non-bonded count:   749372
+ -7.63391E+02  8.43622E-02  7.19671E-01
+ Step number:        100         Non-bonded count:   749372
+ -7.63663E+02  7.82094E-02  1.10382E+00
+ Step number:        100         Non-bonded count:   750020
+ -7.63697E+02  7.82063E-02  1.10382E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     266
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -7.63697E+02 kcal/mol
+ Total Potential Energy.......... -7.63697E+02 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  6.43223E+01 kcal/mol
+ Angle Bending Energy............  2.32446E+02 kcal/mol
+ Torsion Angle Energy............  3.20328E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  7.16919E+02 kcal/mol
+ 1,4 Electrostatic Energy........  3.34757E+02 kcal/mol
+ Lennard Jones Energy............ -1.52706E+03 kcal/mol
+ Electrostatic Energy............ -9.20655E+02 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:19:06 CET
+%IMPACT-I (timit): Total CPU time =       8.68 seconds (   0.1 minutes)
+Total elapsed time = 9 seconds
+Beginning refinement level 2
+ ** Completed refinement level 2 and rmsd = 0.22266703865440077
+%IMPACT-I (openwt): Request to open FORMATTED file GPX_Staphylococcus-aureus-001_ref3.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:19:09 CET
+ Impact version 98128
+ mmshare version        61128
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux cactus-X11DAi-N 5.15.0-125-generic #135~20.04.1-Ubuntu SMP Mon Oct 7 13:56:22 UTC 2024 x86_64
+ Job Name: GPX_Staphylococcus-aureus-001
+ JobId:    cactus-X11DAi-N-1-675d858e
+ SCHRODINGER  directory: /home/cactus/Programs/schrodinger2023-1
+ IMPACT_EXEC  directory: /home/cactus/Programs/schrodinger2023-1/impact-v9.8/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /home/cactus/Programs/schrodinger2023-1/mmshare-v6.1/bin/Linux-x86_64
+
+ Clock-based global random seed:     1734182349
+%IMPACT-I(foldmain): calling OPLS_2005 atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  =  2537
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:   750020
+ E-pot        RMS grad     Max grad    
+ -7.78942E+02  1.17876E-01  1.28971E+00
+ Step number:         10         Non-bonded count:   750020
+ -7.81419E+02  3.46703E-01  6.06043E+00
+ Step number:         20         Non-bonded count:   750398
+ -7.85728E+02  3.37632E-01  4.54245E+00
+ Step number:         30         Non-bonded count:   751474
+ -7.88655E+02  2.21508E-01  3.21523E+00
+ Step number:         40         Non-bonded count:   752477
+ -7.90386E+02  2.28107E-01  2.31197E+00
+ Step number:         50         Non-bonded count:   753018
+ -7.91990E+02  1.67965E-01  2.10049E+00
+ Step number:         60         Non-bonded count:   752524
+ -7.93574E+02  1.61401E-01  1.80184E+00
+ Step number:         70         Non-bonded count:   752443
+ -7.94584E+02  1.38220E-01  1.70638E+00
+ Step number:         80         Non-bonded count:   752300
+ -7.95398E+02  1.33076E-01  2.21828E+00
+ Step number:         90         Non-bonded count:   752377
+ -7.96059E+02  1.14842E-01  1.44423E+00
+ Step number:        100         Non-bonded count:   752440
+ -7.96555E+02  1.06915E-01  1.26050E+00
+ Step number:        100         Non-bonded count:   752868
+ E-pot        RMS grad     Max grad    
+ -7.96634E+02  1.06925E-01  1.26050E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     278
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -7.96634E+02 kcal/mol
+ Total Potential Energy.......... -7.96634E+02 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  6.46649E+01 kcal/mol
+ Angle Bending Energy............  2.32698E+02 kcal/mol
+ Torsion Angle Energy............  3.16250E+02 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  7.13558E+02 kcal/mol
+ 1,4 Electrostatic Energy........  3.34630E+02 kcal/mol
+ Lennard Jones Energy............ -1.54684E+03 kcal/mol
+ Electrostatic Energy............ -9.19463E+02 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Saturday, December 14 2024, at 14:19:15 CET
+%IMPACT-I (timit): Total CPU time =       6.77 seconds (   0.1 minutes)
+Total elapsed time = 7 seconds
+Beginning refinement level 3
+ ** Completed refinement level 3 and rmsd = 0.3312906587748661
+Refinement finished. Final level: 3
+The refined complex file is Clean_Up-impref-out.maegz
+Deleting waters...
+Deleting far waters...
+done deleting waters
+Number of output structures: 1
