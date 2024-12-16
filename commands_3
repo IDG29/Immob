@@ -1,4 +1,4 @@
 #!/bin/sh
-cd prepwizard/output_models/GPX_Neisseria-meningitidis
-"${SCHRODINGER}/utilities/prepwizard" ../../input_models/GPX_Neisseria-meningitidis.pdb GPX_Neisseria-meningitidis.pdb -fillsidechains -disulfides -propka_pH 7.0 -f 2005 -rmsd 0.3 -JOBNAME GPX_Neisseria-meningitidis -HOST localhost:1 -WAIT
-cd ../../..
+cd grid/output_models
+"${SCHRODINGER}/glide" ../grid_inputs/GPX_Neisseria-meningitidis.in -OVERWRITE -HOST localhost -TMPLAUNCHDIR -WAIT
+cd ../..
