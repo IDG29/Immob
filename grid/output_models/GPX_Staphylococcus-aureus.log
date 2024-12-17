@@ -1,0 +1,43 @@
+Glide version 98128 (mmshare version 61128)
+mmshare         4006a1f061
+glide-src       5a2936bf79
+psp-src         f38ea8d73b
+macromodel-src  6316add16d
+epik-src        7026e3f65a
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : cactus-X11DAi-N-0-6760ab7d
+Name           : GPX_Staphylococcus-aureus
+Program        : Glide
+Version        : 2023-1 build 128
+Host           : cactus-X11DAi-N
+Dir            : /home/cactus/idimitri/grid/output_models
+HostEntry      : localhost
+JobHost        : cactus-X11DAi-N
+JobDir         : /home/cactus/Programs/schrodinger2023-1/scratch/cactus/GPX_Staphylococcus-aureus
+JobSchrodinger : /home/cactus/Programs/schrodinger2023-1
+Commandline    : /home/cactus/Programs/schrodinger2023-1/glide ../grid_inputs/GPX_Staphylococcus-aureus.in -OVERWRITE -HOST localhost -TMPLAUNCHDIR -WAIT
+StartTime      : 2024-12-16-23:36:46
+--------------------------------------------------------------------------------
+
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+ call calcflex
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+Creating output grid archive 'GPX_Staphylococcus-aureus.zip'
+
+Exiting Glide
+Date: Monday, December 16 2024, at 23:37:24 CET
+CPU time (s): 32.9 user, 1.1 system, 34.1 real
+Total elapsed time = 34 seconds
+[Errno 2] No such file or directory: '../grid_inputs/GPX_Staphylococcus-aureus.in'

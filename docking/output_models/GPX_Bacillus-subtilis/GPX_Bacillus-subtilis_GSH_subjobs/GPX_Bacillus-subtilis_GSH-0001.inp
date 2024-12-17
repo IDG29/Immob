@@ -1,0 +1,11 @@
+COMPRESS_POSES   True
+GRIDFILE   /home/cactus/idimitri/grid/output_models/GPX_Bacillus-subtilis.zip
+KEEP_STATE   True
+LIGAND_END   1
+LIGAND_OFFSET   0
+LIGAND_START   1
+LIGANDFILE   GPX_Bacillus-subtilis_GSH-0001_in.maegz
+NOSORT   True
+POSE_OUTTYPE   ligandlib
+POSES_PER_LIG   100
+PRECISION   SP

@@ -1,0 +1,4 @@
+GRIDFILE GRID_PATH/GPX_Neisseria-meningitidis.zip
+LIGANDFILE ../../../ligands/GSH.mae
+POSES_PER_LIG 100
+PRECISION SP

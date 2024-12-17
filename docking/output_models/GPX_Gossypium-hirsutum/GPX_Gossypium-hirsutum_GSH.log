@@ -1,0 +1,80 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         4006a1f061
+glide-src       5a2936bf79
+psp-src         f38ea8d73b
+macromodel-src  6316add16d
+epik-src        7026e3f65a
+
+--------------------------------------------------------------------------------
+JobId          : cactus-X11DAi-N-2-67619af4
+Name           : GPX_Gossypium-hirsutum_GSH
+Program        : Glide
+Version        : 2023-1 build 128
+Host           : cactus-X11DAi-N
+Dir            : /home/cactus/idimitri/docking/output_models/GPX_Gossypium-hirsutum
+HostEntry      : localhost
+JobHost        : cactus-X11DAi-N
+JobDir         : /home/cactus/Programs/schrodinger2023-1/scratch/cactus/GPX_Gossypium-hirsutum_GSH
+JobSchrodinger : /home/cactus/Programs/schrodinger2023-1
+Commandline    : /home/cactus/Programs/schrodinger2023-1/glide GPX_Gossypium-hirsutum_GSH.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR -WAIT
+StartTime      : 2024-12-17-16:38:29
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: GPX_Gossypium-hirsutum_GSH.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 1
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  cactus-X11DAi-N-2-67619af9 GPX_Gossypium-hirsutum_GSH-0001 localhost [cactus-X11DAi-N]
+1 0 0 | finished  cactus-X11DAi-N-2-67619af9 GPX_Gossypium-hirsutum_GSH-0001 localhost [cactus-X11DAi-N]
+Error reading subjob poses file GPX_Gossypium-hirsutum_GSH-0001_raw.maegz: skipping the rest of the file. ()
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 1 ligands done.
+Writing 90 poses to GPX_Gossypium-hirsutum_GSH_pv.maegz; database holds 90 poses.
+Best docking score: -4.860
+Writing GPX_Gossypium-hirsutum_GSH.csv
+Writing GPX_Gossypium-hirsutum_GSH_skip.csv
+Combining log files to GPX_Gossypium-hirsutum_GSH_subjobs.log
+Archiving subjob pose files in GPX_Gossypium-hirsutum_GSH_subjob_poses.zip
+Archiving subjob input and log files in GPX_Gossypium-hirsutum_GSH_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.0 s
+- running subjobs: 29.1 s
+- postprocessing: 0.1 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 22 seconds
+
+Finished at: Tue Dec 17 16:39:00 2024
+Total elapsed time for Glide script = 29 seconds

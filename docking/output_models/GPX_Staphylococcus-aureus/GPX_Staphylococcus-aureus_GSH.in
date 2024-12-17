@@ -1,0 +1,4 @@
+GRIDFILE GRID_PATH/GPX_Staphylococcus-aureus.zip
+LIGANDFILE ../../../ligands/GSH.mae
+POSES_PER_LIG 100
+PRECISION SP
