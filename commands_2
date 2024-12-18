@@ -1,9 +1,4 @@
 #!/bin/sh
-cd docking/output_models/GPX_Gossypium-hirsutum
-cwd=$(pwd)
-cd ../../../grid/output_models
-gd=$(pwd)
-cd $cwd
-sed -i "s@GRID_PATH@$gd@" GPX_Gossypium-hirsutum_GSH.in 
-"${SCHRODINGER}/glide" GPX_Gossypium-hirsutum_GSH.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR -WAIT
-cd ../../..
+cd grid/output_models
+"${SCHRODINGER}/glide" ../grid_inputs/GPX_Lactococcus-lactis.in -OVERWRITE -HOST localhost -TMPLAUNCHDIR -WAIT
+cd ../..
