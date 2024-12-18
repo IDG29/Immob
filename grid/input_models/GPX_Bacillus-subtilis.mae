@@ -7,14 +7,10 @@
 f_m_ct { 
  s_m_title
  s_pdb_PDB_format_version
- s_m_source_file
- i_m_source_file_index
  i_m_ct_format
  :::
  "" 
   3.0 
-  GPX_Bacillus-subtilis.pdb 
-  1
   2
  m_atom[2546] { 
   # First column is atom index #

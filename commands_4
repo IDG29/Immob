@@ -1,4 +1,9 @@
 #!/bin/sh
-cd grid/output_models
-"${SCHRODINGER}/glide" ../grid_inputs/GPX_Staphylococcus-aureus.in -OVERWRITE -HOST localhost -TMPLAUNCHDIR -WAIT
-cd ../..
+cd docking/output_models/GPX_Staphylococcus-aureus
+cwd=$(pwd)
+cd ../../../grid/output_models
+gd=$(pwd)
+cd $cwd
+sed -i "s@GRID_PATH@$gd@" GPX_Staphylococcus-aureus_GSH.in 
+"${SCHRODINGER}/glide" GPX_Staphylococcus-aureus_GSH.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR -WAIT
+cd ../../..
