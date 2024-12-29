@@ -19,7 +19,7 @@ restart: true
 adaptive_restart: true
 atom_dist:
 - 'A:35:SG'
-- 'L:0:S1'
+- 'L:1:S1'
 seed: 12345
 
 #Options gathered from input.yaml
