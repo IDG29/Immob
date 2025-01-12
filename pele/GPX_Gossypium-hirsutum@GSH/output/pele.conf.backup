@@ -1,0 +1,420 @@
+{
+    "licenseDirectoryPath": "/gpfs/projects/bsc72/PELE++/license",
+    "Initialization": {
+        "allowMissingTerminals": true,
+        "ForceField": "OPLS2005",
+        "MultipleComplex": [
+            $COMPLEXES
+        ],
+        "Solvent": {
+            "ionicStrength": 0.15,
+            "solventType": "VDGBNP",
+            "useDebyeLength": true
+        }
+    },
+    "verboseMode": false,
+    "commands": [
+        {
+            "commandType": "peleSimulation",
+            "RandomGenerator": {
+                "seed": $SEED
+            },
+            "selectionToPerturb": {
+                "chains": {
+                    "names": [
+                        "L"
+                    ]
+                }
+            },
+            "PELE_Output": {
+                "savingFrequencyForAcceptedSteps": 1,
+                "savingMode": "savingTrajectory",
+                "reportPath": "$OUTPUT_PATH/report",
+                "trajectoryPath": "$OUTPUT_PATH/trajectory.xtc"
+            },
+            "PELE_Parameters": {
+                "anmFrequency": 4,
+                "sideChainPredictionFrequency": 2,
+                "minimizationFrequency": 1,
+                "waterPerturbationFrequency": 1,
+                "perturbationCOMConstraintConstant": 1.0,
+                "sideChainPredictionRegionRadius": 6,
+                "activateProximityDetection": true,
+                "temperature": 1500,
+                "numberOfPeleSteps": $PELE_STEPS
+            },
+            "constraints": [
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:20:_CA_",
+                    "toThisPoint": [
+                        12.048999786376953,
+                        13.093000411987305,
+                        0.8529999852180481
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:30:_CA_",
+                    "toThisPoint": [
+                        -3.063999891281128,
+                        6.065999984741211,
+                        15.517999649047852
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:40:_CA_",
+                    "toThisPoint": [
+                        4.6020002365112305,
+                        0.38600000739097595,
+                        -9.22599983215332
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:50:_CA_",
+                    "toThisPoint": [
+                        -4.214000225067139,
+                        4.178999900817871,
+                        -8.194999694824219
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:60:_CA_",
+                    "toThisPoint": [
+                        -13.20199966430664,
+                        8.20199966430664,
+                        3.7339999675750732
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:70:_CA_",
+                    "toThisPoint": [
+                        5.431000232696533,
+                        2.1679999828338623,
+                        -0.5680000185966492
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:80:_CA_",
+                    "toThisPoint": [
+                        12.71399974822998,
+                        2.065000057220459,
+                        -11.958999633789062
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:90:_CA_",
+                    "toThisPoint": [
+                        3.3429999351501465,
+                        10.633999824523926,
+                        -11.600000381469727
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:100:_CA_",
+                    "toThisPoint": [
+                        1.2209999561309814,
+                        9.779000282287598,
+                        1.6540000438690186
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:110:_CA_",
+                    "toThisPoint": [
+                        16.59600067138672,
+                        -10.267999649047852,
+                        4.093999862670898
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:120:_CA_",
+                    "toThisPoint": [
+                        3.7769999504089355,
+                        -10.642000198364258,
+                        6.126999855041504
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:130:_CA_",
+                    "toThisPoint": [
+                        6.039000034332275,
+                        -13.600000381469727,
+                        0.6629999876022339
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:140:_CA_",
+                    "toThisPoint": [
+                        -5.065000057220459,
+                        -2.359999895095825,
+                        9.435999870300293
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:150:_CA_",
+                    "toThisPoint": [
+                        -5.611000061035156,
+                        -8.758000373840332,
+                        -0.2460000067949295
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 0.5,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:160:_CA_",
+                    "toThisPoint": [
+                        -14.890999794006348,
+                        -1.1410000324249268,
+                        0.7200000286102295
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 5.0,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:10:_CA_",
+                    "toThisPoint": [
+                        1.6890000104904175,
+                        -3.066999912261963,
+                        16.05699920654297
+                    ]
+                },
+                {
+                    "type": "constrainAtomToPosition",
+                    "springConstant": 5.0,
+                    "equilibriumDistance": 0.0,
+                    "constrainThisAtom": "A:170:_CA_",
+                    "toThisPoint": [
+                        -22.95599937438965,
+                        2.315000057220459,
+                        7.383999824523926
+                    ]
+                }
+            ],
+            "Perturbation": {
+                "Box": {
+                    "type": "sphericalBox",
+                    "radius": 10,
+                    "fixedCenter": [
+                        2.871,
+                        -2.653,
+                        -17.93
+                    ]
+                },
+                "perturbationType": "naive",
+                "translationDirection": "steered",
+                "rotationAngles": "nonCoupled",
+                "parameters": {
+                    "numberOfStericTrials": 500,
+                    "steeringUpdateFrequency": 0,
+                    "overlapFactor": 0.65
+                }
+            },
+            "ANM": {
+                "algorithm": "CARTESIANS",
+                "nodes": {
+                    "atoms": {
+                        "names": [
+                            "_CA_"
+                        ]
+                    }
+                },
+                "ANMMinimizer": {
+                    "algorithm": "TruncatedNewton",
+                    "parameters": {
+                        "MaximumMinimizationIterations": 1,
+                        "MaximumNewtonIterations": 25,
+                        "MinimumRMS": 0.2,
+                        "alphaUpdated": false,
+                        "nonBondingListUpdatedEachMinStep": false
+                    }
+                },
+                "options": {
+                    "directionGeneration": "random",
+                    "modesMixingOption": "mixMainModeWithOthersModes",
+                    "pickingCase": "RANDOM_MODE"
+                },
+                "parameters": {
+                    "displacementFactor": 0.75,
+                    "eigenUpdateFrequency": 1000000,
+                    "mainModeWeightForMixModes": 0.75,
+                    "modesChangeFrequency": 4,
+                    "numberOfModes": 6,
+                    "relaxationSpringConstant": 0.5
+                }
+            },
+            "SideChainPrediction": {
+                "algorithm": "zhexin",
+                "parameters": {
+                    "discardHighEnergySolutions": false,
+                    "resolution": 10,
+                    "randomize": false,
+                    "numberOfIterations": 1
+                }
+            },
+            "Minimizer": {
+                "algorithm": "TruncatedNewton",
+                "parameters": {
+                    "MinimumRMS": 0.2,
+                    "alphaUpdated": false,
+                    "nonBondingListUpdatedEachMinStep": true
+                }
+            },
+            "PeleTasks": [
+                {
+                    "metrics": [
+                        {
+                            "type": "bindingEnergy",
+                            "boundPartSelection": {
+                                "chains": {
+                                    "names": [
+                                        "L"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "sasa",
+                            "tag": "sasaLig",
+                            "selection": {
+                                "chains": {
+                                    "names": [
+                                        "L"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "com_distance",
+                            "tag": "distance_A43SG_L1S1",
+                            "selection_group_1": {
+                                "atoms": {
+                                    "ids": [
+                                        "A:43:_SG_"
+                                    ]
+                                }
+                            },
+                            "selection_group_2": {
+                                "atoms": {
+                                    "ids": [
+                                        "L:1:_S1_"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "tag": "rand",
+                            "type": "random"
+                        },
+                        {
+                            "tag": "rand4",
+                            "type": "random"
+                        },
+                        {
+                            "tag": "rand3",
+                            "type": "random"
+                        },
+                        {
+                            "tag": "rand2",
+                            "type": "random"
+                        },
+                        {
+                            "tag": "rand1",
+                            "type": "random"
+                        }
+                    ],
+                    "parametersChanges": [
+                        {
+                            "ifAnyIsTrue": [
+                                "rand >= .5"
+                            ],
+                            "doThesechanges": {
+                                "Perturbation::parameters": {
+                                    "rotationScalingFactor": 0.05
+                                }
+                            },
+                            "otherwise": {
+                                "Perturbation::parameters": {
+                                    "rotationScalingFactor": 0.2
+                                }
+                            }
+                        },
+                        {
+                            "ifAnyIsTrue": [
+                                "rand1 >= 0.5"
+                            ],
+                            "doThesechanges": {
+                                "Perturbation::parameters": {
+                                    "translationRange": 0.5
+                                }
+                            },
+                            "otherwise": {
+                                "Perturbation::parameters": {
+                                    "translationRange": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "ifAnyIsTrue": [
+                                "rand2 >= 0.5"
+                            ],
+                            "doThesechanges": {
+                                "Perturbation::parameters": {
+                                    "steeringUpdateFrequency": 0,
+                                    "numberOfTrials": 30
+                                }
+                            },
+                            "otherwise": {
+                                "Perturbation::parameters": {
+                                    "steeringUpdateFrequency": 1,
+                                    "numberOfTrials": 10
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+2024-12-24 14:27:12,107:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2024-12-24 14:27:19,201:INFO:Prepare complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Neisseria-meningitidis@GSH/GPX_Neisseria-meningitidis@GSH@14.pdb
+2024-12-24 14:27:20,997:INFO:Complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Neisseria-meningitidis@GSH/output/input/GPX_Neisseria-meningitidis@GSH@14_processed.pdb prepared
+
+
+2024-12-24 14:27:34,128:INFO:Generating exploration box
+2024-12-24 14:27:34,129:INFO:Box with center [1.007, -9.113, -14.768] and radius 10 generated
+
+
+2024-12-24 14:27:34,129:INFO:Setting implicit solvent: VDGBNP
+2024-12-24 14:27:34,129:INFO:Implicit solvent set
+
+
+2024-12-24 15:31:00,680:INFO:Simulation run successfully (:
+
+
+2024-12-24 19:53:04,081:INFO:Simulation run successfully (:
+
+

@@ -1,0 +1,19 @@
+{
+    	"type" : "object",
+    	"properties" :
+		{
+            	"parameters" :
+            	{
+            			"type" : "object",
+            			"additionalProperties" : false,
+            			"properties" :
+                            {
+                            "overlapFactor" :
+                            {
+                                    "type" : "number",
+                                    "default" : 0.6
+                            }
+                		}
+    			}
+		}
+}

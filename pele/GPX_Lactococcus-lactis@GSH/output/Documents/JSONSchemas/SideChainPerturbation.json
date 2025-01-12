@@ -1,0 +1,38 @@
+{
+	"type" : "object",
+	"properties" :
+	{
+		"sideChainsToPerturb": @Selector@,
+    	"parameters" :
+    	{
+			"type" : "object",
+			"additionalProperties" : false,
+			"properties" :
+			{
+        		"overlapFactor" :
+        		{
+            			"type" : "number",
+           				"default" : 0.5
+        		},
+        		"numberOfTrials" :
+        		{
+            			"type" : "number",
+            			"default" : 10
+        		},
+                "atLeastOneSelectedTrial" : {
+                	"type" : "boolean",
+                	"default": false
+                },
+                "maxTrialsForAtLeastOne" : {
+                	"type" : "integer",
+                	"default" : 1000
+                },
+                "refinementAngle" : 
+                {
+                	"type" : "integer",
+                	"default" : 0
+                }
+    		}
+		}
+	}
+}

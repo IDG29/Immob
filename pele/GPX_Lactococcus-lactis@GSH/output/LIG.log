@@ -1,0 +1,21 @@
+2024-12-24 14:27:12,110:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2024-12-24 14:27:19,201:INFO:Prepare complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Lactococcus-lactis@GSH/GPX_Lactococcus-lactis@GSH@12.pdb
+2024-12-24 14:27:20,844:INFO:Complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Lactococcus-lactis@GSH/output/input/GPX_Lactococcus-lactis@GSH@12_processed.pdb prepared
+
+
+2024-12-24 14:27:34,128:INFO:Generating exploration box
+2024-12-24 14:27:34,129:INFO:Box with center [0.569, -8.945, -13.57] and radius 10 generated
+
+
+2024-12-24 14:27:34,129:INFO:Setting implicit solvent: VDGBNP
+2024-12-24 14:27:34,129:INFO:Implicit solvent set
+
+
+2024-12-24 15:34:22,953:INFO:Simulation run successfully (:
+
+
+2024-12-24 19:57:22,688:INFO:Simulation run successfully (:
+
+

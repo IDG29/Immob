@@ -1,0 +1,178 @@
+{
+   "description" : "Since there are 4 kinds of boxes, there are 4 schemas. Your control file should validate against one of them",
+    "type": [
+        {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "prismaticBox"
+                    ],
+                    "required": true
+                },
+                "x_y_z": {
+                    "type": "array",
+                    "required": true,
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "fixedCenter":{
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "items": {
+                        "type": "array",
+                          "items":{
+                            "type": "number"
+                     }
+                    }
+                },
+                "selectionOfAtomsForCOM": @Selector@
+            }
+        },
+        {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "sphericalBox"
+                    ]
+                },
+                "radius":{
+                    "type": "number",
+                    "required": true
+                },
+                "fixedCenter":{
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                            "type": "number"
+                    }
+                },
+                "selectionOfAtomsForCOM": @Selector@
+            }
+        },
+        {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "multiSphericalBox"
+                    ]
+                },
+                "listOfSpheres":{
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "items":{
+                        "type": "object",
+                        "additionalProperties" : "false",
+                        "properties": {
+                            "radius": {
+                                "type": "number",
+                                "required": true
+                            },
+                            "fixedCenter":{
+                                "type": "array",
+                                "minItems": 3,
+                                "maxItems": 3,
+                                "items": {
+                                    "type": "number"
+                                }
+                            },
+                            "selectionOfAtomsForCOM": @Selector@
+                        }
+                    }
+                },
+                "multiCenter":{
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "items": {
+                            "type": "array",
+                            "minItems":3,
+                            "maxItems":3,
+                            "items": {
+                                    "type": "number"
+                            }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "sphericalShellBox"
+                    ],
+                    "required": true
+                },
+                "innerRadius": {
+                    "type": "number",
+                    "required": true
+                },
+                "outerRadius": {
+                    "type": "number",
+                    "required": true
+                },
+                "fixedCenter": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "selectionOfAtomsForCOM": @Selector@
+            }
+        },
+        {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "cylindricalBox"
+                    ],
+                    "required": true
+                },
+                "radius": {
+                    "type": "number",
+                    "required": true
+                },
+                "fixedCenter1": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "fixedCenter2": {
+                    "type": "array",
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "selectionOfAtomsForCOM1": @Selector@,
+                "selectionOfAtomsForCOM2": @Selector@
+            }
+        }
+    ]
+}

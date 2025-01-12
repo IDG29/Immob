@@ -1,0 +1,18 @@
+2024-12-24 14:27:12,112:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2024-12-24 14:27:19,205:INFO:Prepare complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Bacillus-subtilis@GSH/GPX_Bacillus-subtilis@GSH@55.pdb
+2024-12-24 14:27:20,717:INFO:Complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Bacillus-subtilis@GSH/output/input/GPX_Bacillus-subtilis@GSH@55_processed.pdb prepared
+
+
+2024-12-24 14:27:34,128:INFO:Generating exploration box
+2024-12-24 14:27:34,128:INFO:Box with center [0.414, -2.6, -17.614] and radius 10 generated
+
+
+2024-12-24 14:27:34,128:INFO:Setting implicit solvent: VDGBNP
+2024-12-24 14:27:34,128:INFO:Implicit solvent set
+
+
+2024-12-25 05:55:00,095:INFO:Simulation run successfully (:
+
+

@@ -1,0 +1,68 @@
+{
+    	"type" : "object",
+    	"properties" :
+		{
+				"watersToPerturb": @Selector@,
+				"Box" : @Box@,
+                "waterSites" :
+                {
+                    "type" : "array",
+                    "items" :
+                    {
+                        "type" :
+                        {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties":
+                            {
+                                "watersToPerturb": @Selector@,
+                                "Box" : @Box@
+                            }
+                        }
+                    }
+                },
+            	"parameters" :
+            	{
+            			"type" : "object",
+            			"additionalProperties" : false,
+            			"properties" :
+            			{
+                                "watersToPerturbPerStep" :
+                                {
+                                        "type" : "number",
+                                        "default" : -1.0
+                                },
+                		"translationRange" :
+                		{
+                    			"type" : "number",
+                    			"default" : 5.0
+                		},
+                		"overlapFactor" :
+                		{
+                    			"type" : "number",
+                   				"default" : 0.8
+                		},
+                		"temperature" :
+                		{
+                    			"type" : "number",
+                    			"default" : 1000
+                		},
+                		"numberOfStericTrials" :
+                		{
+                    			"type" : "number",
+                    			"default" : 100
+                		},
+                                "COMConstraintConstant" :
+                                {
+                                        "type" : "number",
+                                        "default" : 0
+                                },
+                                "allowEmptyWaterSelectors" :
+                                {
+                                        "type" : "boolean",
+                                        "default" : false
+                                }
+                		}
+    			}
+		}
+}

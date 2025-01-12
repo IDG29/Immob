@@ -1,0 +1,21 @@
+2024-12-24 14:27:12,108:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2024-12-24 14:27:19,202:INFO:Prepare complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Staphylococcus-aureus@GSH/GPX_Staphylococcus-aureus@GSH@5.pdb
+2024-12-24 14:27:20,939:INFO:Complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Staphylococcus-aureus@GSH/output/input/GPX_Staphylococcus-aureus@GSH@5_processed.pdb prepared
+
+
+2024-12-24 14:27:34,128:INFO:Generating exploration box
+2024-12-24 14:27:34,128:INFO:Box with center [-2.558, -6.126, -15.66] and radius 10 generated
+
+
+2024-12-24 14:27:34,128:INFO:Setting implicit solvent: VDGBNP
+2024-12-24 14:27:34,129:INFO:Implicit solvent set
+
+
+2024-12-24 15:27:38,833:INFO:Simulation run successfully (:
+
+
+2024-12-24 19:30:24,935:INFO:Simulation run successfully (:
+
+

@@ -1,0 +1,21 @@
+2024-12-24 14:27:12,102:INFO:System: LIG; Platform Functionality: Adaptive
+
+
+2024-12-24 14:27:19,207:INFO:Prepare complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Gossypium-hirsutum@GSH/GPX_Gossypium-hirsutum@GSH@6.pdb
+2024-12-24 14:27:20,954:INFO:Complex /.statelite/tmpfs/gpfs/projects/bsc72/idimitri/Tutorial/pele/GPX_Gossypium-hirsutum@GSH/output/input/GPX_Gossypium-hirsutum@GSH@6_processed.pdb prepared
+
+
+2024-12-24 14:27:34,128:INFO:Generating exploration box
+2024-12-24 14:27:34,128:INFO:Box with center [2.871, -2.653, -17.93] and radius 10 generated
+
+
+2024-12-24 14:27:34,129:INFO:Setting implicit solvent: VDGBNP
+2024-12-24 14:27:34,129:INFO:Implicit solvent set
+
+
+2024-12-24 15:20:38,292:INFO:Simulation run successfully (:
+
+
+2024-12-24 19:20:07,911:INFO:Simulation run successfully (:
+
+
