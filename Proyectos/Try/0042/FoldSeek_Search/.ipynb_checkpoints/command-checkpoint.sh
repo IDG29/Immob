@@ -1,0 +1,1 @@
+foldseek easy-search P01618.pdb /home/bubbles/foldseek_databases/pdb fs_output.txt --format-output query,target,fident,alnlen,mismatch,gapopen,evalue,qseq,tseq -s 9.5 --max-seqs 1000 -e 0.001 --alignment-type 2 -c 0 --cov-mode 2 tmp 
