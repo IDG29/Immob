@@ -1,9 +1,0 @@
-#!/bin/sh
-cd docking/output_models/GPX_Lactococcus-lactis
-cwd=$(pwd)
-cd ../../../grid/output_models
-gd=$(pwd)
-cd $cwd
-sed -i "s@GRID_PATH@$gd@" GPX_Lactococcus-lactis_GSH.in 
-"${SCHRODINGER}/glide" GPX_Lactococcus-lactis_GSH.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR -WAIT
-cd ../../..

@@ -1,0 +1,2 @@
+#!/bin/sh
+for script in gpu_commands_?; do nohup bash $script &> ${script%.*}.nohup& done
